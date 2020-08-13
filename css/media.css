@@ -1,0 +1,142 @@
+/* ==========MEDIA_DESCTOP=========== */
+
+@media (min-width: 1200px) {
+    header{
+        padding-left:265px ;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    nav {
+        margin: 0 auto;
+    }
+
+    .menu-list__desctop {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-list__link {
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: 300;
+    }
+
+    .menu-list__link:hover {
+        background-color: #ffbb42;
+        color: #fff;
+    }
+
+    .wrapper {
+        height: 690px;
+    }
+
+    .wrapper__bg {
+        height: 589px;
+    }
+
+    .container-title {
+        padding: 106px 0px  30px;
+        width: 100%;
+    }
+
+  /*   =============MOBILE_FORM========== */
+      
+    .container-form {
+        width: 1088px;
+        margin: 0 auto;
+        padding-right: 211px;
+    }
+
+    form {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form-input {
+        display: block;
+        margin-bottom: 57px;
+    }
+
+    .mac{
+        width: 648px;
+    }
+
+    .mac-layer {
+        width: 445px;
+        left: 16%;
+        top: 5%;
+    }
+
+  /*   ===========STEP_SECTION=============== */
+
+    .step-ct {
+        margin-bottom: 80px;
+    }
+
+    .step-list {
+        width: 1170px;
+    }
+
+    .step-item {
+        width: 218px;
+        position: relative;
+    }
+      
+    .step-dotted {
+        display: block;
+        left: 206px;
+        bottom: 186px;
+    }
+
+    .step-dotted::before {
+        position: absolute;
+        content: '';
+        bottom: -3px;
+        left: -8px;
+        width: 11px;
+        height: 11px;
+        background-image: url('../assets/img/arrow1.png');
+        background-repeat: no-repeat;
+    }
+
+    .step-dotted::after {
+        position: absolute;
+        content: '';
+        width: 17px;
+        height: 17px;
+        bottom: -11px;
+        right: -14px;
+        background-image: url('../assets/img/arrow2.png');
+        background-repeat: no-repeat;
+    }
+
+    .step-dotted__bot:before{
+        position: absolute;
+        content: '';
+        top: -4px;
+        width: 11px;
+        height: 11px;
+        background-image: url('../assets/img/arrow.png');
+        background-repeat: no-repeat;
+    }
+
+    .step-dotted__bot:after{
+        position: absolute;
+        content: '';
+        top: -6px;
+        right:-11px;
+        width: 11px;
+        height: 11px;
+        background-image: url('../assets/img/arrow4.png');
+        background-repeat: no-repeat;
+    }
+
+    .step-dotted__bot {
+        bottom: 148px;
+        left: 196px;
+    }
+  }
