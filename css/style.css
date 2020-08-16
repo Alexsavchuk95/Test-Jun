@@ -24,6 +24,7 @@ a{
     letter-spacing: -0.5px;
 }
 
+
 button:active, button:focus, input {
     outline: none;
   }
@@ -40,7 +41,7 @@ button:active, button:focus, input {
     line-height: 1.2;
 }
 
-.menu-list__item {
+.list-item {
     padding: 10px;
     font-family: 'Lato';
     padding: 15px 0px;
@@ -51,13 +52,8 @@ button:active, button:focus, input {
     line-height: 1.2;
 }
 
-.menu-list__link:hover {
-    cursor: pointer;
-    border-radius: 2px;
-    background-color: rgb(255, 187, 66);
-}
 
-.menu-list__desctop {
+.list-desctop {
     display: none;
 }
 
@@ -126,7 +122,7 @@ button:active, button:focus, input {
 
 /* =============MOBILE_NAVIGATION=========== */
 
-.menu-list__mobile {
+.list-mobile{
     z-index: 2;
     display: none;
     position: absolute;
@@ -137,7 +133,7 @@ button:active, button:focus, input {
     background-color:rgba(112, 157, 202, 0.8) ;
 }
 
-.menu-item__mobile {
+.item-mobile {
     font-family: 'Lato';
     padding: 15px 0px;
     text-align: center;
@@ -147,14 +143,14 @@ button:active, button:focus, input {
     line-height: 1.2;
 }
 
-.menu-link__mobile{
+.link-mobile{
     padding: 10px;
     border-radius: 5px;
     background-color: #ffbb42;
     color: #fff;
 }
 
-.menu-list__mobile--active {
+.list-mobile--active {
     display: block;
 }
 
@@ -180,7 +176,7 @@ button:active, button:focus, input {
     text-align: center;
 }
 
-.title {
+h2 {
     font-size: 26px;
     font-family: "Gotham";
     color: #fff;
@@ -298,7 +294,7 @@ input {
     border-radius: 50%;
 }
 
-.mac-ecl__active {
+.ecl--active {
     border-color: #20aade;
 }
 
@@ -315,7 +311,7 @@ input {
     margin-bottom: 64px;
 }
 
-.step-title {
+h3 {
     font-size: 26px;
     font-family: "Gotham";
     color: rgb(57, 75, 80);
@@ -324,7 +320,7 @@ input {
     text-align: center;
 }
 
-.title-text__grey {
+.text-grey {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-weight: 300;
@@ -355,7 +351,7 @@ input {
     margin-bottom: 30px;
 }
 
-.item-title {
+h5 {
     margin-bottom: 16px;
     font-size: 20px;
     font-family: "Lato";
@@ -365,7 +361,7 @@ input {
     line-height: 1.1;
 }
 
-.item-text {
+p {
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(123, 123, 123);
